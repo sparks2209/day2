@@ -1,0 +1,9 @@
+version: '3.5'
+services:
+ eywebappashu:
+  image: shabfebwebapp:v20
+  build: 
+   context: .
+   dockerfile: shab.dockerfile
+  ports:
+  - "9990:80"

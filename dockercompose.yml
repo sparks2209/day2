@@ -1,0 +1,7 @@
+version: '3.5'
+services: 
+ eywebappashu:
+  image:shabfebwebapp:v20
+ build: .
+ ports:
+  - "9090:80"
